@@ -1,0 +1,17 @@
+name = lvo
+version = 7.x-1.0
+base theme = professional_theme
+description = Lookvida-optical Theme
+screenshot = images/lookvida-optical.png
+core = 7.x
+engine = phptemplate
+stylesheets[all][] = css/lvo.css
+
+regions[header]         = Header
+regions[navigation]     = Navigation
+regions[highlighted]    = Highlighted
+regions[help]           = Help
+regions[content]        = Content
+regions[sidebar_first]  = First Sidebar
+regions[sidebar_second] = Second Sidebar
+regions[footer]         = Footer

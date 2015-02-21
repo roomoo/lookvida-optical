@@ -1,0 +1,201 @@
+/**********************************************************
+ *              Lookvida-optical Styles
+ **********************************************************/
+
+
+#block-menu-menu-secundair-menu {
+    min-height:20px;
+    box-shadow:0 0 3px #999;
+    background:#444;
+    background:-moz-repeating-linear-gradient(#555, #333 20px);
+    background:-webkit-repeating-linear-gradient(#555, #333 20px);
+    background:-o-repeating-linear-gradient(#555, #333 20px);
+    background:-ms-repeating-linear-gradient(#555, #333 20px);
+    background:repeating-linear-gradient(#555, #333 20px);
+}
+
+#block-menu-menu-secundair-menu ul {
+    float:right;
+    padding:0;
+    margin:0;
+    max-width:75%;
+    list-style:none;
+    font-size:10px;
+}
+
+#block-menu-menu-secundair-menu li {
+    position:relative;
+    float:left;
+    padding:0;
+    margin:0;
+    line-height:20px;
+    list-style-type: none;
+    list-style-image: none;
+}
+
+#block-menu-menu-secundair-menu ul li:first-child {
+    padding-left:0;
+}
+
+#block-menu-menu-secundair-menu a {
+    display:block;
+    padding:0 20px;
+    color:#f0f0f0;
+    text-align:center;
+    text-decoration:none;
+}
+
+#block-menu-menu-secundair-menu a:hover,
+#block-menu-menu-secundair-menu li > a.active {
+    background:#777;
+    background:-moz-linear-gradient(#777,#555);
+    background:-webkit-linear-gradient(#777,#555);
+    background:-o-linear-gradient(#777,#555);
+    background:-ms-linear-gradient(#777,#555);
+    background:linear-gradient(#777,#555);
+    color:#fff;
+    text-decoration:none;
+}
+
+#block-menu-menu-secundair-menu li > a.active {
+    background:#222;
+    background:-moz-linear-gradient(#252525,#151515);
+    background:-webkit-linear-gradient(#252525,#151515);
+    background:-o-linear-gradient(#252525,#151515);
+    background:-ms-linear-gradient(#252525,#151515);
+    background:linear-gradient(#252525,#151515);
+}
+
+body {
+}
+
+/* suppress title for home page. */
+body.front h1.page-title {
+    display: none;
+}
+
+body.node-type-product .field-type-image img {
+    border: 1px solid #F79646;
+}
+
+body.node-type-product .page-title{
+    color: #333366;
+}
+
+#container {
+}
+
+.content.node-product .field-label-inline .field-label {
+    width: 13em;
+}
+
+.copyright {
+    float: none;
+    max-width: 100%;
+}
+
+#copyright p {
+    margin: 0;
+    text-align: center;
+}
+
+#footer {
+}
+
+#header {
+}
+
+.lvo-block-user-login {
+    box-shadow: 0 0 3px #999999;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lvo-block-user-login ul {
+    font-size: x-small;
+}
+
+#main {
+}
+
+.mediaelement-video video{
+    border: 1px solid #F79646;
+    margin-top: 1em;
+}
+
+.menu-contact-container {
+    float: right;
+}
+
+#site-description {
+    font-size: 16px;
+    font-style: italic;
+    margin: 0px;
+    line-height: 16px;
+    float: left;
+    margin-top: 55px;
+}
+
+#site-description-extra {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 16px;
+    float: right;
+    margin-top: 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #F79646;
+}
+
+.view-product-list article {
+    margin: 0;
+}
+
+.view-product-list article .content img {
+    border: 1px solid #F79646;
+}
+
+.view-product-list article header h2.title a {
+    text-decoration: underline;
+    color: #333366;
+}
+
+.view-product-list .field-name-body {
+    float: left;
+    margin-left: 1em;
+    width: calc( 100% - 100px - 2em );
+}
+
+.view-product-list .field-name-field-image {
+    float: left;
+    width: 100px;
+}
+
+.view-product-list .pager {
+    margin-top: 1em;
+}
+
+.view-product-list .views-row {
+    padding: 1em;
+    border-left: 1px solid #F79646;
+    border-bottom: 1px solid #F79646;
+    border-right: 1px solid #F79646;
+}
+
+.view-product-list .views-row-even {
+    background-color: #FFFFE8;
+}
+
+.view-product-list .views-row-first {
+    border-top: 1px solid #F79646;
+}
+
+.view-product-list .views-row-odd {
+    background-color: #FFFFD8;
+}
+
+#wrapper {
+    border-left: 10px solid #F79646;
+}
